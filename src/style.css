@@ -1,0 +1,99 @@
+:root {
+  --grey: rgba(210, 210, 210, 0.2);
+  --greydark: rgba(210, 210, 210, 0.4);
+}
+
+body {
+  font-family: "Hind Madurai", sans-serif;
+
+  color: #3d2513;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 2px 2px 1px #faf8ee;
+  background-color: #f0f2f5;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  text-indent: 20px;
+}
+
+.link {
+  color: #faf8ee;
+  text-shadow: 2px 2px 2px #3d2513;
+  display: inline;
+}
+
+.link:focus,
+.link:hover {
+  color: #9b2c28;
+}
+
+.navigation {
+  width: 56%;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 28px;
+}
+
+.croissant-header {
+  padding-top: 60px;
+  font-size: 80px;
+  font-weight: 700;
+  color: #faf8ee;
+  text-shadow: 4px 4px 2px #3d2513;
+}
+
+.container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+
+  padding-top: 60px;
+  padding-bottom: 240px;
+  margin: 0 auto;
+}
+
+.homepage {
+  background-image: linear-gradient(var(--grey), var(--grey)),
+    url("../imgs/pexels-pixabay-2135.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.croissant {
+  width: 56%;
+  padding: 20px;
+  background: rgba(252, 251, 239, 0.75);
+  border: 1px solid #3d2513;
+  border-radius: 8px;
+}
+
+.gallery {
+  background-image: linear-gradient(var(--greydark), var(--greydark)),
+    url("../imgs/pexels-marcelo-verfe-16026625.jpg");
+  background-size: cover;
+  background-position: center;
+  /* margin: 0 auto; */
+}
+
+.gallery a {
+  color: #3d2513;
+  text-shadow: 2px 2px 1px #faf8ee;
+}
+
+.album {
+  margin-top: 60px;
+}
+
+
+
