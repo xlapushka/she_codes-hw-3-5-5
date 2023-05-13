@@ -26,11 +26,12 @@ li {
   color: #faf8ee;
   text-shadow: 2px 2px 2px #3d2513;
   display: inline;
+  text-decoration: none;
 }
 
 .link:focus,
 .link:hover {
-  color: #9b2c28;
+  color: #af8460;
 }
 
 .navigation {
@@ -114,4 +115,8 @@ li {
   background: rgba(252, 251, 239, 0.25);
   border: 1px solid #3d2513;
   border-radius: 8px;
+}
+
+.active {
+  color: #AF8460;
 }
